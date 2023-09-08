@@ -42,9 +42,15 @@
         android:signleline="ture"
         />
 
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="이용약관 동의"/>
+
     <Button
         android:layout_width="match_parent"
-        android:layou_height="wrap_content"
+        android:layout_height="wrap_content"
         android:text="확인" />
 
 </LinearLayout>
