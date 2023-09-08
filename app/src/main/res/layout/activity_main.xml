@@ -39,6 +39,12 @@
         android:layout_height="wrap_content"
         android:hint="한 줄로 입력"
         android:imeoption="actiongo"
-        android:signleline="ture" />
+        android:signleline="ture"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layou_height="wrap_content"
+        android:text="확인" />
 
 </LinearLayout>
