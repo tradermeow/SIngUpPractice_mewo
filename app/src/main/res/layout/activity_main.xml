@@ -8,11 +8,19 @@
     android:gravity="top"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
     <ImageView
         android:layout_width="120dp"
         android:layout_height="120dp"
     android:src="@drawable/torr_mewo01"
         android:scaleType="center"/>
+
+</LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
